@@ -19,7 +19,7 @@ for (var j = 0; j < list.length; j++) {
 
 console.log("\n Hey I just found a bigger table so I am gonig to ivite some more guests\n");
 
-list.concat("Ali"); // Add to the beginning
+list.unshift("Ali"); // Add to the beginning
 list.splice(Math.floor(list.length / 2), 0, "Saad"); // Add to the middle
 list.push("Hamza"); // Add to the end
 
