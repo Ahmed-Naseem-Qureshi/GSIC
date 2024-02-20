@@ -1,4 +1,4 @@
-function createCar(manufacturer, modelName, ...options) {
+function car_detail(manufacturer, modelName, ...options) {
     var car = {
         manufacturer: manufacturer,
         modelName: modelName
@@ -15,7 +15,7 @@ function createCar(manufacturer, modelName, ...options) {
 }
 
 // Call the function with required and optional information
-var carInfo = createCar("Toyota", "Camry", "color", "blue", "year", 2022);
+var car_info = car_detail("Toyota", "Camry", "color", "blue", "year", 2022);
 
 // Print the returned object
-console.log("Car Information:", carInfo);
+console.log("Car Information:", car_info);
